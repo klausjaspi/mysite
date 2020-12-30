@@ -1,0 +1,65 @@
+.signupform-input {
+    padding: 8px 10px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: solid;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .signupformend-input {
+    padding: 8px 10px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: solid;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .signup-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    color: #fff;
+    background-color: #ffffff;
+    background-image: url('/src/images/img-8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .form-style{
+    background-color: #242424;
+    padding: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+  }
+
+  .form-style > h1{
+    padding-bottom: 20px;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .btn--outline2{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+.btn--primary{
+    background-color: #242424;
+    color: #fafafa;
+    border: 1px solid var(--primary);
+}
