@@ -1,16 +1,17 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 
-function CardItem(props) {
+function CardItem(props, path) {
     return (
         <>
             <li className="cards__item">
-                <Link className="cards__item__link" to={props.path}>
+                <Link className="cards__item__link" to={{ pathname: "https://www.youtube.com/watch?v=HKWMV2LhMHo" }} target="blank">
                     <figure className="cards__item__pic-wrap" data-category={props.label}>
                         <img src={props.src} alt="" className="cards__item__img"/>
                     </figure>
                     <div className="cards__item__info">
                         <h5 className="cards__item__text">{props.text}</h5>
+                        
                     </div>
                 </Link>
             </li>
