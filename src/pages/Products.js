@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import '../../src/App.css';
 import Footer from '../components/Footer';
-import img from "../images/yougot.jpg"
-import img2 from "../images/speak.jpg";
+import img from "../images/phoneapp.jpg"
+import img2 from "../images/mug.jpg";
 import img3 from "../images/roadtrip.jpg"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -19,7 +19,7 @@ export default function  Products(){
         centerMode: true,
         arrows: true,
         autoplay: true,
-        autoplaySpeed: 5500,
+        autoplaySpeed: 6500,
         pauseOnHover: true,
         responsive: [
             {
@@ -49,13 +49,13 @@ export default function  Products(){
       const products = [
         {
           img: img,
-          title: "Coaching   -  Have you hit dead-end and lack motivation?",
-          text: "\nWe have the best coaches from almost every field around the world, learn more!"
+          title: "App   -  Commercial videos to every situation",
+          text: "\nOver 700 hundred videos in 4K Quality. \n\nBuying the app grants you a license to use these videos!"
         },
         {
           img: img2,
-          title: 'Course   -  How to give a unforgettable speech',
-          text: '\nOur award winning speakers unveil you the secrets of how to give an amazing speech. \n\nSign up today, limited seats!'
+          title: 'Custom made Mugs',
+          text: '\nBecause everyone deserves a personally tailored mug. Order now! '
         },
         {
           img: img3,
@@ -69,6 +69,7 @@ export default function  Products(){
     <h1 className='products'>PRODUCTS</h1>
 
     <div className="sliderapp">
+      <h1></h1>
         <Slider {...settings}>
             {products.map((x,i) => {
                 return(
