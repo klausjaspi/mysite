@@ -23,36 +23,27 @@ function Footer() {
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div class='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Terms of Service</Link>
+                        <Link to='/'><h2>About Me</h2></Link>
+                        
+                        
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Contact Us</h2>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Support</Link>
-                        <Link to='/'>Destinations</Link>
-                        <Link to='/'>Sponsorships</Link>
+                        <Link to='/'><h2>Contact Me</h2></Link>
+                        
                     </div>
+                    
                 </div>
-                <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
-                        <h2>Videos</h2>
-                        <Link to='/'>Submit Video</Link>
-                        <Link to='/'>Ambassadors</Link>
-                        <Link to='/'>Agency</Link>
-                        <Link to='/'>Influencer</Link>
-                    </div>
-                    <div class='footer-link-items'>
+                
+            </div>
+            <div className='footer-link-bottom'>
+                    <div class='footer-link-social'>
                         <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+                        <Link to={{ pathname: "https://www.instagram.com/klausjaspi/"}} target="blank"><i class="fab fa-instagram"/></Link>
+                        <Link to={{ pathname: "https://www.facebook.com/klaus.jaspi/"}} target="blank"><i class="fab fa-facebook-f" /></Link>
+                        <Link to={{ pathname: "https://www.linkedin.com/in/klaus-jaspi-9375401a8/"}} target="blank"><i class="fab fa-linkedin-in" /></Link>
+                        
                     </div>
-                </div>
+                    
             </div>
         </div>
     )
