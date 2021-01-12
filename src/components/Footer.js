@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {Button} from './Button';
 import "./Footer.css";
 
+
 function Footer() {
     return (
         <div className="footer-container">
@@ -23,7 +24,7 @@ function Footer() {
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div class='footer-link-items'>
-                        <Link to='/'><h2>About Me</h2></Link>
+                        <Link to="/about"><h2>About Me</h2></Link>
                         
                         
                     </div>

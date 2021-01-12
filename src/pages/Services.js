@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../src/App.css';
-import Cards from '../components/Cards';
 import img from "../images/yougot.jpg"
 import img2 from "../images/speak.jpg";
 import Footer from '../components/Footer';
@@ -63,7 +62,7 @@ export default function Services(){
     <h1 className='services'>SERVICES</h1>
 
     <div className="sliderapp">
-      <h1></h1>
+      
         <Slider {...settings}>
             {products.map((x,i) => {
                 return(

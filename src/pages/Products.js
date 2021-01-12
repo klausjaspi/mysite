@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../../src/App.css';
 import Footer from '../components/Footer';
 import img from "../images/phoneapp.jpg"
@@ -69,7 +69,7 @@ export default function  Products(){
     <h1 className='products'>PRODUCTS</h1>
 
     <div className="sliderapp">
-      <h1></h1>
+      
         <Slider {...settings}>
             {products.map((x,i) => {
                 return(

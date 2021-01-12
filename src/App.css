@@ -1,4 +1,4 @@
-
+/*Base settings begin here*/
 
 * {
   box-sizing: border-box;
@@ -10,13 +10,20 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.about {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
+
+/*Base settings end here*/
+
+
+
+/*Services page css starts here*/
 
 .services {
   background-image: url('/src/images/img-2.jpg');
@@ -27,16 +34,20 @@
   font-size: 100px;
 }
 
+/*Services page css ends here*/
+
+
 /*Products and slider css starts here*/
 
 .products {
   background-image: url('/src/images/img-1.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
+
 
 .sliderapp {
   width: 1350px;
@@ -100,6 +111,9 @@
 /*Products and slider css ends here*/
 
 
+
+/*Sign up page css starts here*/
+
 .sign-up {
   background-image: url('/src/images/img-8.jpg');
   background-position: center;
@@ -109,3 +123,86 @@
   font-size: 100px;
 }
 
+/*Sign up page css ends here*/
+
+
+
+/*About me page css begins here*/
+
+.about {
+  background-image: url('/src/images/autumn.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+}
+
+.welcometext{
+  animation: drop 1.3s ease;
+  clip-path: polygon(3% 0, 91% 0, 88% 100%, 0% 100%);
+  background-color: rgb(24, 24, 24);
+  width: 1050px;
+  text-align: left;
+}
+
+.welcometext h2{
+  margin-bottom: 35px;
+  font-size: 50px;
+  margin-left: 70px;
+}
+
+.welcometext p{
+  white-space: pre-wrap;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+.welcometext .see{
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.mytext-container {
+  width: 100%;
+  max-width: 100%;
+  height: 700px;
+  margin: 40px auto;
+}
+
+.mytext-section{
+  width: 70%;
+  height: 40%;
+  margin: 50px auto;
+  background-color: #666;
+}
+
+
+.mypic{
+  width: 300px;
+  max-width: 300px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.3s ease;
+}
+
+.photocredit{
+  font-size: 15px;
+  color: rgb(161, 161, 161);
+  margin-top: -13px;
+  background-color: rgb(17, 17, 17);
+  width: 225px;
+  animation: drop 1.3s ease;
+}
+
+@keyframes drop {
+  0%{
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/*About me page css ends here*/

@@ -1,5 +1,4 @@
 import React from 'react';
-import CardItem from './CardItem';
 import './Cards.css';
 import picture from '../images/maxresdefault.jpg';
 import picture2 from '../images/workout-home.jpg';
