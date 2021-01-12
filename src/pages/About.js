@@ -3,6 +3,8 @@ import "../../src/App.css";
 import Footer from '../components/Footer';
 import me from "../images/me_mod.jpg";
 
+
+
 function About() {
     return (
         <>

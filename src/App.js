@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import Products from './pages/Products';
 import SignUp from './pages/SignUp';
 import About from './pages/About';
+import ScrollTop from './components/ScrollTop';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
         <Route path='/services' component={Services}/>
         <Route path='/products' component={Products}/>
         <Route path='/sign-up' component={SignUp}/>
-        <Route path='/about' component={About}/>
+        <ScrollTop >
+          <Route path='/about' component={About}/>
+        </ScrollTop>
       </Switch>
     </Router>
     </>
