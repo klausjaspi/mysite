@@ -19,23 +19,10 @@ function Footer() {
                             <input type="email" name="email" placeholder="Your Email" className="footer-input"/>
                             <Button buttonStyle="btn--outline">Subscribe</Button>
                         </form>
+
                 </div>
             </section>
-            <div className="footer-links">
-                <div className="footer-link-wrapper">
-                    <div class='footer-link-items'>
-                        <Link to="/about"><h2>About Me</h2></Link>
-                        
-                        
-                    </div>
-                    <div class='footer-link-items'>
-                        <Link to='/'><h2>Contact Me</h2></Link>
-                        
-                    </div>
-                    
-                </div>
-                
-            </div>
+            
             <div className='footer-link-bottom'>
                     <div class='footer-link-social'>
                         <h2>Social Media</h2>
@@ -45,6 +32,12 @@ function Footer() {
                         
                     </div>
                     
+                    
+                    
+            </div>
+            <div className="emailinfo">
+                    <h2>Email</h2>
+                    <p>klaus.jaspi@gmail.com</p>
             </div>
         </div>
     )
