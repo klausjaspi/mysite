@@ -1,3 +1,4 @@
+import { render } from '@testing-library/react';
 import React from 'react';
 import "../../src/App.css";
 import Footer from '../components/Footer';
@@ -8,6 +9,7 @@ import me3 from "../images/me_mod3.jpg";
 
 
 function About() {
+    
     return (
         <>
             <div className="about">
