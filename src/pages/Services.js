@@ -24,14 +24,15 @@ export default function Services(){
               breakpoint: 700,
               settings: {
                 arrows: false,
-                slidesToShow: 3
+                slidesToShow: 1,
+                slidesToScroll: 1
               }
             },
             {
               breakpoint: 500,
               settings: {
                 arrows: false,
-                slidesToShow: 2
+                slidesToShow: 1
               }
             },
             {

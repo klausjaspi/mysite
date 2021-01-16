@@ -25,7 +25,7 @@ function About() {
             </div>
 
             <div className="mytext-container">
-                <div>
+                <div className="photocontainer">
                     <img className="mypic2" src={me2} alt=""/> 
                     <p className="photocredit2">Photo by @sandervillphotos</p>
 
@@ -75,4 +75,4 @@ function About() {
     )
 }
 
-export default About
+export default About;

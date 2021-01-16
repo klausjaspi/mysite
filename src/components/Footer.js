@@ -40,7 +40,7 @@ function Footer() {
                     <p>klaus.jaspi@gmail.com</p>
             </div>
         </div>
-    )
+    );
 }
 
 export default Footer
