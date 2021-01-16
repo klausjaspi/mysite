@@ -23,7 +23,7 @@ export default function  SignUp(){
                         <input type="password" name="password" placeholder="Password"className="signupform-input" />
                     </div>
                     <div>
-                        <input type="password" name="password" placeholder="Password again"className="signupformend-input" />
+                        <input type="password" name="password" placeholder="Password again" className="signupformend-input" />
                     </div>
                     <Button buttonStyle="btn--outline2">Create User</Button>
                 </form>
