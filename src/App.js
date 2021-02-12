@@ -12,6 +12,7 @@ import About from './pages/About';
 import ScrollTop from './components/ScrollTop';
 
 
+
 function App() {
 
   const [isLoading, setIsLoading] = useState(true);
@@ -43,6 +44,7 @@ function App() {
 
   return (
     <>
+    
     <Router>
       {isLoading?<div></div>:
       <div>
