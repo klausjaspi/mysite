@@ -36,7 +36,7 @@ function About() {
                     <div className="introtext">
                         <h3>Get To Know Me</h3>
                         <p>Born in Turku, currently living in Naantali with my Wife and two cats. I'm few months away 26 years old.{"\n"}I'm into programming, hiking, and playing guitar. I'm cheerful, open-minded, self-motivated, and honest personality. It's easy to get along with me. I excel working as a team member, but also on my own.{"\n\n"}</p>
-                        <p>I'm on my second yeard of ICT-engineer studies in Turku University of Applied Sciences. My advanced special studies focus on software & project management.{"\n\n"}Along with my studies I've continued working at Turun Osuuskauppa in which I've worked for the past 6 years now. My job description consists from different roles of a retail sales person of which warehouse worker has been my absolute favorite. As a warehouse worker I've had the chance to utilize my best assets: good time management, logical thinking, stress tolerance and skill to work as an individual in a team.{"\n\n\n"}As a committed, passionated and creative student I believe I have a lot to offer for you. I'm open to tell more about myself in person.</p>
+                        <p>I'm on my second yeard of ICT-engineer studies in Turku University of Applied Sciences. My advanced special studies focus on software & project management.{"\n\n\n"}I'm enthusiastic and I see challenges as opportunities to grow from. As a committed, passionated and creative student I believe I have a lot to offer for you. I'm open to tell more about myself in person.</p>
                     </div>
                 
                 
