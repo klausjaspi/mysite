@@ -1,28 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import {Button} from './Button';
 import "./Footer.css";
 
 
 function Footer() {
     return (
         <div className="footer-container">
-            <section className="footer-subscription">
-                <p className="footer-subscribtion-heading">
-                    Join the newsletter to receive best tutorial tips
-                </p>
-                <p className="footer-subscription-text">
-                    You can unsubscribe at any time.
-                </p>
-                <div className="input-areas">
-                        <form>
-                            <input type="email" name="email" placeholder="Your Email" className="footer-input"/>
-                            <Button buttonStyle="btn--outline">Subscribe</Button>
-                        </form>
-
-                </div>
-            </section>
-            
+   
             <div className='footer-link-bottom'>
                     <div class='footer-link-social'>
                         <h2>Social Media</h2>
@@ -31,9 +15,7 @@ function Footer() {
                         <Link to={{ pathname: "https://www.linkedin.com/in/klaus-jaspi-9375401a8/"}} target="blank"><i class="fab fa-linkedin-in" /></Link>
                         
                     </div>
-                    
-                    
-                    
+
             </div>
             <div className="emailinfo">
                     <h2>Email</h2>

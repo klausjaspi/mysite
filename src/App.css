@@ -1,10 +1,18 @@
 /*Base settings begin here*/
 
+.pace-running > *:not(.pace) {
+  opacity: 0;
+}
+
+.pace-running{
+  background-color: rgb(31, 31, 31);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font: bold;
 }
 
@@ -26,17 +34,12 @@
 
 /*Small sizes*/
 
-
-
-
-
 /*Responsive settings for pages end*/
-
 
 /*Services page css starts here*/
 
-.services{
-  background-image: url('/src/images/img-2.jpg');
+.services {
+  background-image: url("/src/images/img-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,21 +47,18 @@
   font-size: 100px;
 }
 
-
 /*Services page css ends here*/
-
 
 /*Products and slider css starts here*/
 
 .products {
-  background-image: url('/src/images/img-1.jpg');
+  background-image: url("/src/images/img-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
-
 
 .sliderapp {
   width: 1350px;
@@ -72,7 +72,7 @@
   background: #f5f5f5;
   color: #666;
   overflow: hidden;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   height: 700px;
   border: solid;
@@ -80,53 +80,49 @@
 }
 
 .img-card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
- 
+
 .img {
   width: 100%;
   height: 510px;
   object-fit: cover;
 }
- 
+
 .card-body {
   padding: 15px;
   white-space: pre-wrap;
 }
- 
+
 .card-title {
   font-size: 25px;
   font-weight: 600;
 }
- 
+
 .card-text {
   margin-top: 10px;
   font-size: 19px;
 }
 
-
 .slick-slide > div {
   margin: 0 10px;
 }
- 
+
 .slick-list {
   margin: 0 -10px;
 }
- 
-.slick-slide *:focus{
+
+.slick-slide *:focus {
   outline: none;
 }
 /*# sourceMappingURL=slick.min.css.map */
 
-
 /*Products and slider css ends here*/
-
-
 
 /*Sign up page css starts here*/
 
 .sign-up {
-  background-image: url('/src/images/img-8.jpg');
+  background-image: url("/src/images/img-8.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -136,19 +132,17 @@
 
 /*Sign up page css ends here*/
 
-
-
 /*About me page css begins here*/
 
 .about {
-  background-image: url('/src/images/autumn1.jpg');
+  background-image: url("/src/images/autumn1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
 }
 
-.welcometext{
+.welcometext {
   animation: drop 1.3s ease;
   clip-path: polygon(3% 0, 91% 0, 88% 100%, 0% 100%);
   background-color: rgb(24, 24, 24);
@@ -156,19 +150,19 @@
   text-align: left;
 }
 
-.welcometext h2{
+.welcometext h2 {
   margin-bottom: 35px;
   font-size: 50px;
   margin-left: 70px;
 }
 
-.welcometext p{
+.welcometext p {
   white-space: pre-wrap;
   font-size: 30px;
   margin-left: 70px;
   margin-bottom: 20px;
 }
-.welcometext .see{
+.welcometext .see {
   font-size: 18px;
   margin-top: 20px;
 }
@@ -181,7 +175,7 @@
   display: flex;
 }
 
-.mytext-section{
+.mytext-section {
   width: 60%;
   height: auto;
   margin: 30px auto;
@@ -191,16 +185,15 @@
   flex-direction: column;
 }
 
-.mytext-section2{
+.mytext-section2 {
   width: 100%;
   height: auto;
   margin: 30px auto;
-  
+
   white-space: pre-wrap;
-  
 }
 
-.mypic{
+.mypic {
   width: 300px;
   max-width: 300px;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -208,7 +201,7 @@
   animation: drop 1.3s ease;
 }
 
-.photocredit{
+.photocredit {
   font-size: 15px;
   color: rgb(161, 161, 161);
   margin-top: -13px;
@@ -217,7 +210,7 @@
   animation: drop 1.3s ease;
 }
 
-.mypic2{
+.mypic2 {
   height: 600px;
   margin-top: 30px;
   margin-right: 10px;
@@ -225,7 +218,7 @@
   filter: drop-shadow(3px 3px 2px black);
 }
 
-.mypic3{
+.mypic3 {
   height: 495px;
   margin-top: 250px;
   margin-right: 10px;
@@ -233,7 +226,7 @@
   filter: drop-shadow(3px 3px 2px black);
 }
 
-.photocredit2{
+.photocredit2 {
   font-size: 15px;
   color: rgb(161, 161, 161);
   margin-top: -5px;
@@ -243,7 +236,7 @@
   filter: drop-shadow(3px 0px 2px black);
 }
 
-.introtext{
+.introtext {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -253,98 +246,100 @@
   background-color: rgb(102, 102, 102);
 }
 
-.introtext h3{
+.introtext h3 {
   font-size: 30px;
   margin-bottom: 15px;
 }
 
-.introtext h4{
+.introtext h4 {
   margin-bottom: 5px;
   margin-top: 30px;
   font-size: 20px;
-  text-decoration: #000000 underline;
-  color:#000000;
+  text-decoration: #ffffff underline;
+  color: #ffffff;
 }
 
-.introtext a{
+.introtext a {
   color: #fff;
   text-decoration: none;
 }
 
-@media screen and (max-width: 820px){
-
+@media screen and (max-width: 820px) {
   /*Services page*/
   .services,
   .products,
-  .sign-up{
+  .sign-up {
     font-size: 70px;
   }
 
-  
-
-
-  .sliderapp{
+  .sliderapp {
     width: auto;
     margin: 60px auto;
+    height: 600px;
   }
-  
-  .img{
+
+  .img-card{
+    height: 520px;
+  }
+
+  .img {
     height: 45%;
   }
 
-  .card-body{
+  .card-body {
     padding: 3px;
   }
 
-  .card-title{
+  .card-title {
     font-size: 20px;
   }
 
-  .card-text{
+  .card-text {
     font-size: 15px;
-    
   }
-  
 
-  .mypic{
+  .mypic {
     width: 150px;
     margin-left: 10px;
   }
 
-  .photocredit{
+  .photocredit {
     font-size: 12px;
     width: 112px;
     margin-top: -14px;
     margin-left: 10px;
   }
 
-  .welcometext{
-    width: 190px;
+  .welcometext {
+    width: 220px;
   }
 
-  .welcometext h2{
+  .welcometext h2 {
     font-size: 18px;
     margin-left: 13px;
   }
 
-  .welcometext p{
+  .welcometext p {
     font-size: 12px;
     margin: 13px;
   }
 
-  .welcometext .see{
+  .welcometext .see {
     font-size: 5px;
   }
 
-  .mytext-container{
+  .mytext-container {
     width: 100%;
     height: 100%;
-    
+
     display: block;
     margin: 30px auto;
   }
-  
-  .mypic2, .mypic3, .photocredit2,.photocontainer{
+
+  .mypic2,
+  .mypic3,
+  .photocredit2,
+  .photocontainer {
     visibility: hidden;
     width: 0%;
     height: 0%;
@@ -352,63 +347,48 @@
     display: none;
   }
 
-  
-
-  .mytext-section{
+  .mytext-section {
     width: 96%;
     height: auto;
     margin: auto;
   }
 
-  .introtext{
+  .introtext {
     width: 100%;
     height: 100%;
     margin: auto;
   }
 
-  .mytext-section2{
+  .mytext-section2 {
     width: 100%;
     margin-top: 20px;
   }
 
-  .introtext h3{
+  .introtext h3 {
     font-size: 28px;
     width: 200px;
     margin-top: 5px;
   }
 
-  .introtext h4{
+  .introtext h4 {
     font-size: 22px;
     width: 320px;
     margin-bottom: 12px;
     font-weight: bold;
   }
 
-  .introtext p{
+  .introtext p {
     width: 300px;
     font-size: 15px;
   }
-  
-
-  
-
-  
-  
-
-  
 }
 
-
-
-
-
-
 @keyframes drop {
-  0%{
+  0% {
     opacity: 0;
     transform: translateY(-80px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0px);
   }
