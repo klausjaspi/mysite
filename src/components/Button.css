@@ -16,6 +16,10 @@
     border: 1px solid var(--primary);
 }
 
+.btn--primary > ::before {
+    margin-left: 4px;
+  }
+
 .btn--outline{
     background-color: transparent;
     color: #ffffff;

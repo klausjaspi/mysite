@@ -12,12 +12,21 @@ function HeroSection() {
             <h1>TUTORIALS WAIT!</h1>
             <p>What are you waiting for?</p>
             <div className="hero-btns">
-                <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-                    Get Started
-                </Button>
-                <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
-                    About Me <i className="fas fa-info-circle" />
-                </Button>
+                <Button 
+                    className="btns"
+                    buttonStyle="btn--outline"
+                    buttonSize="btn--large"
+                    text="Get Started"
+                    to="/sign-up"
+                />
+                <Button 
+                    className="btns"
+                    buttonStyle="btn--primary"
+                    buttonSize="btn--large"
+                    text="About Me"
+                    icon="fas fa-info-circle"
+                    to="/about"
+                />
             </div>
         </div>
     )

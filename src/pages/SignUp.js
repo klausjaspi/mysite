@@ -44,7 +44,12 @@ export default function SignUp() {
             <p className="not-in-use-info">*currently not available*</p>
           </div>
 
-          <Button buttonStyle="btn--outline2">Create User</Button>
+          <Button
+            className="btns" 
+            buttonStyle="btn--outline2"
+            buttonSize="btn--medium"
+            text="Create User"
+          />
           
         </form>
         
